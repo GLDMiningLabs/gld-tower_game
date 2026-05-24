@@ -64,7 +64,7 @@ export const backgroundLinearGradient = (engine) => {
   if (checkMoveDown(engine)) {
     engine.setVariable(
       constant.bgLinearGradientOffset
-      , offsetHeight + (getMoveDownValue(engine) * 0.6)
+      , offsetHeight + (getMoveDownValue(engine) * 0.1)
     )
   }
   const colorIndex = parseInt(offsetHeight / engine.height, 10)
