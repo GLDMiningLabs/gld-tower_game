@@ -87,7 +87,7 @@ export const getLandBlockVelocity = (engine, time) => {
       hard = 0.003
       break
   }
-  return Math.cos(time / 500) * hard * width
+  return Math.cos(time / 1000) * hard * width
 }
 
 export const getHookStatus = (engine) => {
